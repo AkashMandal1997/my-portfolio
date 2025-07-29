@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Techstack from "./components/Techstack";
 import "./index.css";
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
         <Navbar />
         <Hero />
         <About />
+        <Techstack />
       </div>
     </div>
   );
