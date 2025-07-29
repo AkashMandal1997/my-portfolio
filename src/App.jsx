@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Techstack from "./components/Techstack";
 import "./index.css";
+import Experiences from "./components/Experiences";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Hero />
         <About />
         <Techstack />
+        <Experiences />
       </div>
     </div>
   );
