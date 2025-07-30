@@ -5,6 +5,7 @@ import About from "./components/About";
 import Techstack from "./components/Techstack";
 import "./index.css";
 import Experiences from "./components/Experiences";
+import Projects from "./components/Projects";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <About />
         <Techstack />
         <Experiences />
+        <Projects />
       </div>
     </div>
   );
