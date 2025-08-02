@@ -6,6 +6,7 @@ import Techstack from "./components/Techstack";
 import "./index.css";
 import Experiences from "./components/Experiences";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Techstack />
         <Experiences />
         <Projects />
+        <Contact />
       </div>
     </div>
   );
